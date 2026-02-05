@@ -136,7 +136,7 @@ layout:
   - - 7
     - 8
     - 7
-    - 8
+    - 10
     - 9
 name: Assembly Plant
 placement: anywhere
@@ -274,4 +274,17 @@ tiles:
       filename: industries/assembly-plant/19.png
       left: -31
       top: -49
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/assembly-plant/22.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/assembly-plant/21.png
+      left: -31
+      top: 0
 type: secondary
